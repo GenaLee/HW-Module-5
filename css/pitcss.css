@@ -1,115 +1,56 @@
-*{
-margin:0;
-padding:0
+* {
+    margin: 0;
+    padding: 0
 }
 
-body{
-	background-color: lightgrey;
-}
-.rectangle{
-	height: 571px;
-	width: 480px;
-	background-color: white;
-	border: 1px solid grey;
-	position: fixed;
-	left: 50%;
-	margin-left: -240px;
-	top: 10px;
+body {
+    background-color: lightgrey;
 }
 
-.picture{
- position: relative;
- margin: 0 auto;
- width: 480px;
- bottom: 50px;
- top:50px;
- height: 568px;
- background-color: white;
- border: 3px solid grey;
+.rectangle {
+    height: 571px;
+    width: 480px;
+    background-color: white;
+    border: 1px solid grey;
+    position: fixed;
+    left: 50%;
+    margin-left: -240px;
+    top: 10px;
 }
 
-/*.picture{
-	  display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: stretch;
-
-    position: relative;
-
-	background-color: red;
-	border: 1px solid grey;
-	height: 570px;
-	width: 480px;
-	margin: 0 auto;
-	margin-top: 10px;
-	z-index: 1;
-}*/
-
-table{
-	/*flex-basis: auto;*/
-	/*align-items: stretch;*/
-	/*flex: 1 110%;*/
-	
-  /*margin: -15px;*/
-  /*right: 0px;*/
-  /*margin: 0 auto;*/
-  /*bottom: 0px;*/
-  position: fixed;
-  top: 12px;
-  /*top: 0px;*/
-  /*left: 0px;*/
-  /*width: 104%;*/
-  /*height: 102%;*/
-	width: 480px;
-	height: 570px;
-  border-collapse: collapse;
-	/*top: -15px;*/
-	/*left: 50%;*/
-
-	/*margin-left: -5px;*/
-	/*margin-top: -5px;*/
-	margin-right: -5px;
-	margin-bottom: -5px;
-	border: 11px solid white;
-	}
-
-tr{
-	height: 5%;
-}
-td{
-	width: auto;
-	border: 10px solid black;
-	margin: 0;
-	padding: 0;
+table {
+    position: fixed;
+    top: 12px;
+    width: 480px;
+    height: 570px;
+    border-collapse: collapse;
+    border: 11px solid white;
 }
 
-.yel{
-	background-color: yellow;
+tr {
+    height: 5%;
 }
-.rd{
-	background-color: red;
-	width: 60%;
-}
-.blck{
-	background-color: black;
-}
-.bl{
-	background-color: darkblue;
-}
-/*.c21, .c22, .c13{ 
-width: 13%;
 
- }
-.c24{
-	width: 25%;
+td {
+    width: auto;
+    border: 10px solid black;
+    margin: 0;
+    padding: 0;
 }
-.c25, .c26{
-	width: 18%;
+
+.yel {
+    background-color: yellow;
 }
-td .c11{
-colspan = "2";
+
+.rd {
+    background-color: red;
+    width: 60%;
 }
-.c15{
-	background-color: yellow;
-}*/
+
+.blck {
+    background-color: black;
+}
+
+.bl {
+    background-color: darkblue;
+}
